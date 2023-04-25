@@ -1,0 +1,52 @@
+[2023-04-10T01:00:03.822+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-10T01:00:03.837+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-10T01:00:03.842+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T01:00:03.843+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-10T01:00:03.844+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T01:00:03.860+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-04-09 00:00:00+00:00
+[2023-04-10T01:00:03.895+0000] {standard_task_runner.py:55} INFO - Started process 16440 to run task
+[2023-04-10T01:00:03.903+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'extract_user', 'scheduled__2023-04-09T00:00:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmp1k8qvhmn']
+[2023-04-10T01:00:03.914+0000] {standard_task_runner.py:83} INFO - Job 102: Subtask extract_user
+[2023-04-10T01:00:04.047+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.extract_user scheduled__2023-04-09T00:00:00+00:00 [running]> on host c12a518d534c
+[2023-04-10T01:00:04.150+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-09T00:00:00+00:00
+[2023-04-10T01:00:04.153+0000] {http.py:121} INFO - Calling HTTP method
+[2023-04-10T01:00:04.175+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-04-10T01:00:04.183+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-04-10T01:00:04.443+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"José Carlos","last":"de la Crúz"},"location":{"street":{"number":6956,"name":"Diagonal Oaxaca"},"city":"Coyuca de Catalán","state":"Tamaulipas","country":"Mexico","postcode":49215,"coordinates":{"latitude":"25.9170","longitude":"-62.1633"},"timezone":{"offset":"-3:30","description":"Newfoundland"}},"email":"josecarlos.delacruz@example.com","login":{"uuid":"845b93d6-815a-436b-8d64-a7f14965203d","username":"happyfish670","password":"striker","salt":"GetQpASI","md5":"ce168a895caad79e3c30bc555f875031","sha1":"3e4336f8037444a8c45e629b17d30843566e1999","sha256":"c59a907711428085565a7dedecc2b15ff990c6d03cdbedf17fb4e293f002c1c0"},"dob":{"date":"1971-09-16T17:25:20.143Z","age":51},"registered":{"date":"2022-03-06T10:51:24.610Z","age":1},"phone":"(625) 431 0286","cell":"(682) 885 9388","id":{"name":"NSS","value":"06 14 87 5648 3"},"picture":{"large":"https://randomuser.me/api/portraits/men/12.jpg","medium":"https://randomuser.me/api/portraits/med/men/12.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/12.jpg"},"nat":"MX"}],"info":{"seed":"a1f492b8158cc3d0","results":1,"page":1,"version":"1.4"}}
+[2023-04-10T01:00:04.497+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=extract_user, execution_date=20230409T000000, start_date=20230410T010003, end_date=20230410T010004
+[2023-04-10T01:00:04.559+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-10T01:00:04.646+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-04-11T17:26:42.724+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-11T17:26:42.786+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-11T17:26:42.789+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T17:26:42.817+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-11T17:26:42.818+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T17:26:42.858+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-04-09 00:00:00+00:00
+[2023-04-11T17:26:42.904+0000] {standard_task_runner.py:55} INFO - Started process 39695 to run task
+[2023-04-11T17:26:42.960+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'extract_user', 'scheduled__2023-04-09T00:00:00+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpyw2g3omo']
+[2023-04-11T17:26:43.037+0000] {standard_task_runner.py:83} INFO - Job 116: Subtask extract_user
+[2023-04-11T17:26:43.697+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.extract_user scheduled__2023-04-09T00:00:00+00:00 [running]> on host c12a518d534c
+[2023-04-11T17:26:43.967+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-09T00:00:00+00:00
+[2023-04-11T17:26:43.980+0000] {http.py:121} INFO - Calling HTTP method
+[2023-04-11T17:26:44.030+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-04-11T17:26:44.034+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-04-11T17:26:44.372+0000] {http.py:125} INFO - {"results":[{"gender":"female","name":{"title":"Ms","first":"Veena","last":"Anchan"},"location":{"street":{"number":1753,"name":"Fontainhas"},"city":"Dehradun","state":"Mizoram","country":"India","postcode":62673,"coordinates":{"latitude":"11.6069","longitude":"84.3710"},"timezone":{"offset":"-5:00","description":"Eastern Time (US & Canada), Bogota, Lima"}},"email":"veena.anchan@example.com","login":{"uuid":"f0b3243a-9894-43f8-ae29-b5379aa973cb","username":"organicpeacock421","password":"bob123","salt":"HMro9Ik5","md5":"6b1a1159bf99eff4a22cffc7cf7d1723","sha1":"f6e7f6538014eefc56d57f4f6c08cf520bf9001a","sha256":"a85e3baa69869b7534d2641576b4b4d2444be1ed88658d4da1a5c43c767e0c0c"},"dob":{"date":"1956-09-25T05:53:09.626Z","age":66},"registered":{"date":"2012-02-17T14:42:29.217Z","age":11},"phone":"8654286015","cell":"8866566554","id":{"name":"UIDAI","value":"502882336074"},"picture":{"large":"https://randomuser.me/api/portraits/women/54.jpg","medium":"https://randomuser.me/api/portraits/med/women/54.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/54.jpg"},"nat":"IN"}],"info":{"seed":"279fc1f074aad3f2","results":1,"page":1,"version":"1.4"}}
+[2023-04-11T17:26:44.659+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=extract_user, execution_date=20230409T000000, start_date=20230411T172642, end_date=20230411T172644
+[2023-04-11T17:26:44.984+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-11T17:26:45.314+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

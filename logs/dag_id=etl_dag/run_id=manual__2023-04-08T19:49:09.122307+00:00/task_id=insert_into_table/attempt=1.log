@@ -1,0 +1,36 @@
+[2023-04-08T19:49:10.988+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: etl_dag.insert_into_table manual__2023-04-08T19:49:09.122307+00:00 [queued]>
+[2023-04-08T19:49:10.995+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: etl_dag.insert_into_table manual__2023-04-08T19:49:09.122307+00:00 [queued]>
+[2023-04-08T19:49:10.995+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-08T19:49:10.996+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-08T19:49:11.001+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-08T19:49:11.009+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2023-04-08 19:49:09.122307+00:00
+[2023-04-08T19:49:11.014+0000] {standard_task_runner.py:55} INFO - Started process 627 to run task
+[2023-04-08T19:49:11.017+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'etl_dag', 'insert_into_table', 'manual__2023-04-08T19:49:09.122307+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/create_table.py', '--cfg-path', '/tmp/tmpqpy7q970']
+[2023-04-08T19:49:11.019+0000] {standard_task_runner.py:83} INFO - Job 12: Subtask insert_into_table
+[2023-04-08T19:49:11.078+0000] {task_command.py:376} INFO - Running <TaskInstance: etl_dag.insert_into_table manual__2023-04-08T19:49:09.122307+00:00 [running]> on host c12a518d534c
+[2023-04-08T19:49:11.128+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=etl_dag
+AIRFLOW_CTX_TASK_ID=insert_into_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-08T19:49:09.122307+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-08T19:49:09.122307+00:00
+[2023-04-08T19:49:11.138+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-04-08T19:49:11.143+0000] {sql.py:315} INFO - Running statement: INSERT INTO user_details (firstname, lastname, country, username, password, email) 
+VALUES 
+    ('John', 'Doe', 'USA', 'johndoe', 'password123', 'johndoe@example.com'),
+    ('Jane', 'Doe', 'USA', 'janedoe', 'password456', 'janedoe@example.com'),
+    ('Alice', 'Smith', 'Canada', 'alicesmith', 'password789', 'alicesmith@example.com'),
+    ('Bob', 'Johnson', 'UK', 'bobjohnson', 'password123', 'bobjohnson@example.com'),
+    ('Emma', 'Wilson', 'Australia', 'emmawilson', 'password456', 'emmawilson@example.com'),
+    ('David', 'Lee', 'USA', 'davidlee', 'password789', 'davidlee@example.com'),
+    ('Julia', 'Chen', 'China', 'juliachen', 'password123', 'juliachen@example.com'),
+    ('Daniel', 'Kim', 'Korea', 'danielkim', 'password456', 'danielkim@example.com'),
+    ('Maria', 'Garcia', 'Spain', 'mariagarcia', 'password789', 'mariagarcia@example.com'),
+    ('Mohammed', 'Ali', 'Egypt', 'mohammedali', 'password123', 'mohammedali@example.com');, parameters: None
+[2023-04-08T19:49:11.146+0000] {sql.py:324} INFO - Rows affected: 10
+[2023-04-08T19:49:11.166+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=etl_dag, task_id=insert_into_table, execution_date=20230408T194909, start_date=20230408T194910, end_date=20230408T194911
+[2023-04-08T19:49:11.230+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-08T19:49:11.249+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

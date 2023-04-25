@@ -1,0 +1,26 @@
+[2023-04-08T23:36:09.446+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user manual__2023-04-08T23:36:05.813294+00:00 [queued]>
+[2023-04-08T23:36:09.453+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user manual__2023-04-08T23:36:05.813294+00:00 [queued]>
+[2023-04-08T23:36:09.454+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-08T23:36:09.455+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-08T23:36:09.456+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-08T23:36:09.464+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-04-08 23:36:05.813294+00:00
+[2023-04-08T23:36:09.469+0000] {standard_task_runner.py:55} INFO - Started process 7338 to run task
+[2023-04-08T23:36:09.473+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'extract_user', 'manual__2023-04-08T23:36:05.813294+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmp5piz7ytd']
+[2023-04-08T23:36:09.474+0000] {standard_task_runner.py:83} INFO - Job 23: Subtask extract_user
+[2023-04-08T23:36:09.542+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.extract_user manual__2023-04-08T23:36:05.813294+00:00 [running]> on host c12a518d534c
+[2023-04-08T23:36:09.613+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-08T23:36:05.813294+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-08T23:36:05.813294+00:00
+[2023-04-08T23:36:09.615+0000] {http.py:121} INFO - Calling HTTP method
+[2023-04-08T23:36:09.625+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-04-08T23:36:09.628+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-04-08T23:36:09.845+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Rasmus","last":"Kjærvik"},"location":{"street":{"number":3249,"name":"Ørakerfaret"},"city":"Renbygda","state":"Troms - Romsa","country":"Norway","postcode":"3005","coordinates":{"latitude":"40.8563","longitude":"-76.9016"},"timezone":{"offset":"-1:00","description":"Azores, Cape Verde Islands"}},"email":"rasmus.kjaervik@example.com","login":{"uuid":"c665f9dd-699c-463e-a026-9cfbe4b56df9","username":"blackgorilla631","password":"2005","salt":"AMKWzm4N","md5":"1443ba5478304e4e0b11d9abc741367a","sha1":"857bf1aef8f318dbad730e7757bac5f722b08757","sha256":"aaf419d13d268704822a1466d9982b5d0c1062f18ba4c01c754369e9f9bbc467"},"dob":{"date":"1990-02-12T14:15:08.039Z","age":33},"registered":{"date":"2022-02-15T00:47:44.015Z","age":1},"phone":"82734895","cell":"42350641","id":{"name":"FN","value":"12029042711"},"picture":{"large":"https://randomuser.me/api/portraits/men/70.jpg","medium":"https://randomuser.me/api/portraits/med/men/70.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/70.jpg"},"nat":"NO"}],"info":{"seed":"60aa0f77812d5e96","results":1,"page":1,"version":"1.4"}}
+[2023-04-08T23:36:09.893+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=extract_user, execution_date=20230408T233605, start_date=20230408T233609, end_date=20230408T233609
+[2023-04-08T23:36:09.940+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-08T23:36:09.958+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

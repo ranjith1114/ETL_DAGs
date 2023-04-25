@@ -1,0 +1,32 @@
+[2023-04-08T21:11:15.185+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: etl_dag.create_table manual__2023-04-08T21:11:14.031316+00:00 [queued]>
+[2023-04-08T21:11:15.193+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: etl_dag.create_table manual__2023-04-08T21:11:14.031316+00:00 [queued]>
+[2023-04-08T21:11:15.194+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-08T21:11:15.195+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-08T21:11:15.196+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-08T21:11:15.205+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_table> on 2023-04-08 21:11:14.031316+00:00
+[2023-04-08T21:11:15.211+0000] {standard_task_runner.py:55} INFO - Started process 3795 to run task
+[2023-04-08T21:11:15.215+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'etl_dag', 'create_table', 'manual__2023-04-08T21:11:14.031316+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/create_table.py', '--cfg-path', '/tmp/tmpgww0ntkz']
+[2023-04-08T21:11:15.216+0000] {standard_task_runner.py:83} INFO - Job 13: Subtask create_table
+[2023-04-08T21:11:15.550+0000] {task_command.py:376} INFO - Running <TaskInstance: etl_dag.create_table manual__2023-04-08T21:11:14.031316+00:00 [running]> on host c12a518d534c
+[2023-04-08T21:11:15.656+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=etl_dag
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-08T21:11:14.031316+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-08T21:11:14.031316+00:00
+[2023-04-08T21:11:15.670+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-04-08T21:11:15.678+0000] {sql.py:315} INFO - Running statement: CREATE TABLE IF NOT EXISTS user_details (
+    firstname VARCHAR NOT NULL,
+    lastname VARCHAR NOT NULL,
+    country VARCHAR NOT NULL,
+    username VARCHAR UNIQUE NOT NULL,
+    password VARCHAR NOT NULL,
+    email VARCHAR UNIQUE NOT NULL);, parameters: None
+[2023-04-08T21:11:15.681+0000] {postgres.py:96} INFO - NOTICE:  relation "user_details" already exists, skipping
+
+[2023-04-08T21:11:15.700+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=etl_dag, task_id=create_table, execution_date=20230408T211114, start_date=20230408T211115, end_date=20230408T211115
+[2023-04-08T21:11:15.740+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-08T21:11:15.766+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

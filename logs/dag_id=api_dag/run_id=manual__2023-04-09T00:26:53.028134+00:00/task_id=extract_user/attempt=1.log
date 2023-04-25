@@ -1,0 +1,26 @@
+[2023-04-09T00:26:56.205+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user manual__2023-04-09T00:26:53.028134+00:00 [queued]>
+[2023-04-09T00:26:56.218+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.extract_user manual__2023-04-09T00:26:53.028134+00:00 [queued]>
+[2023-04-09T00:26:56.219+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-09T00:26:56.220+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-09T00:26:56.220+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-09T00:26:56.230+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-04-09 00:26:53.028134+00:00
+[2023-04-09T00:26:56.236+0000] {standard_task_runner.py:55} INFO - Started process 9337 to run task
+[2023-04-09T00:26:56.241+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'extract_user', 'manual__2023-04-09T00:26:53.028134+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpx3zae11c']
+[2023-04-09T00:26:56.243+0000] {standard_task_runner.py:83} INFO - Job 46: Subtask extract_user
+[2023-04-09T00:26:56.305+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.extract_user manual__2023-04-09T00:26:53.028134+00:00 [running]> on host c12a518d534c
+[2023-04-09T00:26:56.361+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-09T00:26:53.028134+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-09T00:26:53.028134+00:00
+[2023-04-09T00:26:56.363+0000] {http.py:121} INFO - Calling HTTP method
+[2023-04-09T00:26:56.373+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-04-09T00:26:56.375+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-04-09T00:26:56.591+0000] {http.py:125} INFO - {"results":[{"gender":"male","name":{"title":"Mr","first":"Bela","last":"Heinlein"},"location":{"street":{"number":549,"name":"Goethestraße"},"city":"Aalen","state":"Niedersachsen","country":"Germany","postcode":54754,"coordinates":{"latitude":"-48.7568","longitude":"-96.7871"},"timezone":{"offset":"-11:00","description":"Midway Island, Samoa"}},"email":"bela.heinlein@example.com","login":{"uuid":"15106087-a09d-44e7-999f-0ef3239245ae","username":"organicwolf141","password":"morris","salt":"OdK2s5Bu","md5":"370894ac086f1a2a4df02bd96b268168","sha1":"218dcb0bb2fffcd338b4c8e453a25c9febd01f19","sha256":"d2a3fd5beb06d99b90a73b924e520542d1337bd8c0818933aa5ccceb12cc9f85"},"dob":{"date":"1995-06-28T00:46:47.219Z","age":27},"registered":{"date":"2021-11-06T07:06:09.632Z","age":1},"phone":"0126-1336939","cell":"0175-3046907","id":{"name":"SVNR","value":"65 270695 H 331"},"picture":{"large":"https://randomuser.me/api/portraits/men/22.jpg","medium":"https://randomuser.me/api/portraits/med/men/22.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/men/22.jpg"},"nat":"DE"}],"info":{"seed":"122daa4d9c27c52d","results":1,"page":1,"version":"1.4"}}
+[2023-04-09T00:26:56.621+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=extract_user, execution_date=20230409T002653, start_date=20230409T002656, end_date=20230409T002656
+[2023-04-09T00:26:56.665+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-09T00:26:56.696+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

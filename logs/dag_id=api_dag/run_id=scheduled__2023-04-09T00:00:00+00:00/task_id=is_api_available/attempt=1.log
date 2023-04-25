@@ -1,0 +1,52 @@
+[2023-04-10T01:00:01.023+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_available scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-10T01:00:01.038+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_available scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-10T01:00:01.059+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T01:00:01.061+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-10T01:00:01.062+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-10T01:00:01.076+0000] {taskinstance.py:1383} INFO - Executing <Task(HttpSensor): is_api_available> on 2023-04-09 00:00:00+00:00
+[2023-04-10T01:00:01.083+0000] {standard_task_runner.py:55} INFO - Started process 16437 to run task
+[2023-04-10T01:00:01.088+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'is_api_available', 'scheduled__2023-04-09T00:00:00+00:00', '--job-id', '101', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmp7e0yzbqw']
+[2023-04-10T01:00:01.093+0000] {standard_task_runner.py:83} INFO - Job 101: Subtask is_api_available
+[2023-04-10T01:00:01.184+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.is_api_available scheduled__2023-04-09T00:00:00+00:00 [running]> on host c12a518d534c
+[2023-04-10T01:00:01.281+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-09T00:00:00+00:00
+[2023-04-10T01:00:01.284+0000] {http.py:120} INFO - Poking: api/
+[2023-04-10T01:00:01.301+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-04-10T01:00:01.306+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-04-10T01:00:01.791+0000] {base.py:213} INFO - Success criteria met. Exiting.
+[2023-04-10T01:00:01.815+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=is_api_available, execution_date=20230409T000000, start_date=20230410T010001, end_date=20230410T010001
+[2023-04-10T01:00:01.906+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-10T01:00:01.953+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-04-11T17:26:37.512+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_available scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-11T17:26:37.550+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.is_api_available scheduled__2023-04-09T00:00:00+00:00 [queued]>
+[2023-04-11T17:26:37.554+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T17:26:37.556+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-11T17:26:37.559+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T17:26:37.585+0000] {taskinstance.py:1383} INFO - Executing <Task(HttpSensor): is_api_available> on 2023-04-09 00:00:00+00:00
+[2023-04-11T17:26:37.613+0000] {standard_task_runner.py:55} INFO - Started process 39677 to run task
+[2023-04-11T17:26:37.633+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'is_api_available', 'scheduled__2023-04-09T00:00:00+00:00', '--job-id', '114', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpufq11f4f']
+[2023-04-11T17:26:37.665+0000] {standard_task_runner.py:83} INFO - Job 114: Subtask is_api_available
+[2023-04-11T17:26:38.000+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.is_api_available scheduled__2023-04-09T00:00:00+00:00 [running]> on host c12a518d534c
+[2023-04-11T17:26:38.498+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=is_api_available
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-09T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-09T00:00:00+00:00
+[2023-04-11T17:26:38.515+0000] {http.py:120} INFO - Poking: api/
+[2023-04-11T17:26:38.609+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-04-11T17:26:38.652+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-04-11T17:26:39.219+0000] {base.py:213} INFO - Success criteria met. Exiting.
+[2023-04-11T17:26:39.262+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=is_api_available, execution_date=20230409T000000, start_date=20230411T172637, end_date=20230411T172639
+[2023-04-11T17:26:39.380+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-11T17:26:39.525+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

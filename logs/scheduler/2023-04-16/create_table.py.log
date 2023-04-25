@@ -1,0 +1,868 @@
+[2023-04-16T00:02:14.796+0000] {processor.py:154} INFO - Started process (PID=62392) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:02:14.804+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:02:14.809+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:02:14.808+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:02:15.171+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:02:15.405+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:02:15.404+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:02:15.516+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:02:15.515+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:02:15.621+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.841 seconds
+[2023-04-16T00:04:34.773+0000] {processor.py:154} INFO - Started process (PID=62414) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:04:34.776+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:04:34.779+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:04:34.779+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:04:34.920+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:04:34.994+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:04:34.994+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:04:35.049+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:04:35.049+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:04:35.077+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.308 seconds
+[2023-04-16T00:05:05.408+0000] {processor.py:154} INFO - Started process (PID=62446) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:05:05.411+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:05:05.413+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:05:05.413+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:05:05.548+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:05:05.585+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:05:05.585+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:05:05.607+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:05:05.607+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:05:05.626+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.223 seconds
+[2023-04-16T00:05:35.795+0000] {processor.py:154} INFO - Started process (PID=62477) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:05:35.797+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:05:35.799+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:05:35.799+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:05:35.899+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:05:35.935+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:05:35.935+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:05:35.978+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:05:35.978+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:05:35.995+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.203 seconds
+[2023-04-16T00:06:06.194+0000] {processor.py:154} INFO - Started process (PID=62500) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:06:06.197+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:06:06.198+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:06:06.198+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:06:06.304+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:06:06.360+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:06:06.360+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:06:06.393+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:06:06.393+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:06:06.417+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.227 seconds
+[2023-04-16T00:06:36.633+0000] {processor.py:154} INFO - Started process (PID=62531) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:06:36.635+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:06:36.636+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:06:36.636+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:06:36.725+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:06:36.766+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:06:36.766+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:06:36.796+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:06:36.796+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:06:36.811+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.181 seconds
+[2023-04-16T00:07:07.709+0000] {processor.py:154} INFO - Started process (PID=62563) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:07:07.712+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:07:07.713+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:07:07.713+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:07:07.824+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:07:07.880+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:07:07.880+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:07:07.900+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:07:07.900+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:07:07.913+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.210 seconds
+[2023-04-16T00:07:38.245+0000] {processor.py:154} INFO - Started process (PID=62593) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:07:38.247+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:07:38.249+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:07:38.249+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:07:38.373+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:07:38.412+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:07:38.412+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:07:38.431+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:07:38.431+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:07:38.443+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.213 seconds
+[2023-04-16T00:08:08.592+0000] {processor.py:154} INFO - Started process (PID=62624) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:08:08.600+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:08:08.604+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:08:08.604+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:08:08.736+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:08:08.774+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:08:08.774+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:08:08.795+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:08:08.794+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:08:08.816+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.241 seconds
+[2023-04-16T00:08:39.253+0000] {processor.py:154} INFO - Started process (PID=62646) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:08:39.257+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:08:39.259+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:08:39.259+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:08:39.361+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:08:39.417+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:08:39.417+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:08:39.443+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:08:39.442+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:08:39.454+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.207 seconds
+[2023-04-16T00:11:21.866+0000] {processor.py:154} INFO - Started process (PID=62677) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:11:21.873+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:11:21.882+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:11:21.881+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:11:22.231+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:11:22.555+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:11:22.554+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:11:22.674+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:11:22.674+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:11:22.821+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.982 seconds
+[2023-04-16T00:11:53.504+0000] {processor.py:154} INFO - Started process (PID=62698) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:11:53.512+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:11:53.517+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:11:53.517+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:11:53.791+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:11:53.896+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:11:53.896+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:11:53.937+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:11:53.937+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:11:53.963+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.470 seconds
+[2023-04-16T00:12:24.833+0000] {processor.py:154} INFO - Started process (PID=62729) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:12:24.839+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:12:24.842+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:12:24.842+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:12:24.993+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:12:25.046+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:12:25.045+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:12:25.066+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:12:25.066+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:12:25.080+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.253 seconds
+[2023-04-16T00:12:55.238+0000] {processor.py:154} INFO - Started process (PID=62760) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:12:55.242+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:12:55.252+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:12:55.252+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:12:55.375+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:12:55.420+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:12:55.420+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:12:55.460+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:12:55.460+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:12:55.475+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.242 seconds
+[2023-04-16T00:13:25.755+0000] {processor.py:154} INFO - Started process (PID=62791) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:13:25.758+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:13:25.760+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:13:25.759+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:13:25.847+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:13:25.906+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:13:25.906+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:13:25.925+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:13:25.925+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:13:25.948+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.198 seconds
+[2023-04-16T00:13:56.069+0000] {processor.py:154} INFO - Started process (PID=62812) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:13:56.077+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:13:56.083+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:13:56.083+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:13:56.218+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:13:56.269+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:13:56.269+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:13:56.291+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:13:56.291+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:13:56.304+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.246 seconds
+[2023-04-16T00:14:26.578+0000] {processor.py:154} INFO - Started process (PID=62842) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:14:26.581+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:14:26.582+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:14:26.582+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:14:26.690+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:14:26.772+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:14:26.772+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:14:26.805+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:14:26.805+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:14:26.825+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.252 seconds
+[2023-04-16T00:14:56.934+0000] {processor.py:154} INFO - Started process (PID=62872) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:14:56.936+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:14:56.937+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:14:56.937+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:14:57.026+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:14:57.092+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:14:57.092+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:14:57.112+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:14:57.112+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:14:57.124+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.193 seconds
+[2023-04-16T00:15:27.490+0000] {processor.py:154} INFO - Started process (PID=62904) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:15:27.493+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:15:27.495+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:15:27.495+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:15:27.601+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:15:27.671+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:15:27.671+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:15:27.700+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:15:27.700+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:15:27.716+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.234 seconds
+[2023-04-16T00:32:09.710+0000] {processor.py:154} INFO - Started process (PID=62928) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:32:09.774+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:32:09.786+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:32:09.785+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:32:10.616+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:32:10.854+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:32:10.853+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:32:10.948+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:32:10.948+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:32:11.041+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 1.387 seconds
+[2023-04-16T00:37:12.083+0000] {processor.py:154} INFO - Started process (PID=62950) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:37:12.090+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:37:12.093+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:37:12.092+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:37:12.245+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:37:12.300+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:37:12.299+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:37:12.334+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:37:12.334+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:37:12.363+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.288 seconds
+[2023-04-16T00:37:42.625+0000] {processor.py:154} INFO - Started process (PID=62981) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:37:42.628+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:37:42.630+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:37:42.630+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:37:42.737+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:37:42.801+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:37:42.801+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:37:42.840+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:37:42.840+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:37:42.860+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.244 seconds
+[2023-04-16T00:38:13.763+0000] {processor.py:154} INFO - Started process (PID=63011) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:38:13.766+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:38:13.768+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:38:13.768+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:38:13.872+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:38:13.913+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:38:13.913+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:38:13.938+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:38:13.938+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:38:13.951+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.193 seconds
+[2023-04-16T00:38:44.083+0000] {processor.py:154} INFO - Started process (PID=63041) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:38:44.086+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:38:44.087+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:38:44.087+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:38:44.185+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:38:44.259+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:38:44.259+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:38:44.288+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:38:44.288+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:38:44.304+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.226 seconds
+[2023-04-16T00:39:14.709+0000] {processor.py:154} INFO - Started process (PID=63063) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:39:14.711+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:39:14.712+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:39:14.712+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:39:14.790+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:39:14.832+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:39:14.832+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:39:14.859+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:39:14.859+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:39:14.873+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.169 seconds
+[2023-04-16T00:39:45.106+0000] {processor.py:154} INFO - Started process (PID=63094) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:39:45.109+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:39:45.120+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:39:45.120+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:39:45.228+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:39:45.281+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:39:45.281+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:39:45.312+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:39:45.312+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:39:45.330+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.229 seconds
+[2023-04-16T00:40:15.419+0000] {processor.py:154} INFO - Started process (PID=63125) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:40:15.442+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:40:15.457+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:40:15.457+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:40:15.806+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:40:15.896+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:40:15.896+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:40:15.934+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:40:15.934+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:40:15.953+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.542 seconds
+[2023-04-16T00:40:46.326+0000] {processor.py:154} INFO - Started process (PID=63149) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:40:46.332+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:40:46.334+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:40:46.333+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:40:46.462+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:40:46.500+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:40:46.499+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:40:46.520+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:40:46.520+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:40:46.532+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.211 seconds
+[2023-04-16T00:41:16.673+0000] {processor.py:154} INFO - Started process (PID=63181) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:41:16.675+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:41:16.677+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:41:16.677+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:41:16.838+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:41:16.910+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:41:16.910+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:41:16.944+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:41:16.944+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:41:16.958+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.290 seconds
+[2023-04-16T00:41:47.101+0000] {processor.py:154} INFO - Started process (PID=63212) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:41:47.104+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:41:47.105+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:41:47.105+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:41:47.202+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:41:47.257+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:41:47.257+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:41:47.282+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:41:47.281+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:41:47.298+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.200 seconds
+[2023-04-16T00:42:17.398+0000] {processor.py:154} INFO - Started process (PID=63243) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:42:17.400+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:42:17.401+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:42:17.401+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:42:17.479+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:42:17.538+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:42:17.538+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:42:17.557+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:42:17.557+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:42:17.569+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.175 seconds
+[2023-04-16T00:42:47.823+0000] {processor.py:154} INFO - Started process (PID=63264) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:42:47.825+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:42:47.827+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:42:47.827+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:42:47.924+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:42:47.985+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:42:47.984+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:42:48.012+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:42:48.012+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:42:48.032+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.212 seconds
+[2023-04-16T00:43:18.311+0000] {processor.py:154} INFO - Started process (PID=63296) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:43:18.312+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:43:18.313+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:43:18.313+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:43:18.392+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:43:18.427+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:43:18.427+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:43:18.446+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:43:18.446+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:43:18.458+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.150 seconds
+[2023-04-16T00:43:48.766+0000] {processor.py:154} INFO - Started process (PID=63326) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:43:48.768+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:43:48.769+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:43:48.769+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:43:48.837+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:43:48.885+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:43:48.885+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:43:48.913+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:43:48.913+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:43:48.926+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.165 seconds
+[2023-04-16T00:44:19.209+0000] {processor.py:154} INFO - Started process (PID=63358) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:44:19.212+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:44:19.214+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:44:19.213+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:44:19.333+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:44:19.369+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:44:19.369+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:44:19.394+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:44:19.394+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:44:19.408+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.203 seconds
+[2023-04-16T00:44:49.540+0000] {processor.py:154} INFO - Started process (PID=63389) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:44:49.548+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:44:49.557+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:44:49.556+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:44:49.715+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:44:49.771+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:44:49.771+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:44:49.796+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:44:49.796+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:44:49.814+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.298 seconds
+[2023-04-16T00:45:20.720+0000] {processor.py:154} INFO - Started process (PID=63410) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:45:20.722+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:45:20.723+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:45:20.723+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:45:20.827+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:45:20.864+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:45:20.864+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:45:20.889+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:45:20.888+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:45:20.907+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.193 seconds
+[2023-04-16T00:45:51.091+0000] {processor.py:154} INFO - Started process (PID=63441) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:45:51.093+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:45:51.094+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:45:51.094+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:45:51.177+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:45:51.219+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:45:51.219+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:45:51.238+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:45:51.238+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:45:51.253+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.164 seconds
+[2023-04-16T00:46:21.699+0000] {processor.py:154} INFO - Started process (PID=63472) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:46:21.730+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:46:21.731+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:46:21.731+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:46:21.803+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:46:21.860+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:46:21.860+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:46:21.882+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:46:21.882+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:46:21.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.199 seconds
+[2023-04-16T00:46:52.045+0000] {processor.py:154} INFO - Started process (PID=63502) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:46:52.047+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:46:52.048+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:46:52.048+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:46:52.139+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:46:52.176+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:46:52.176+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:46:52.205+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:46:52.205+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:46:52.223+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.182 seconds
+[2023-04-16T00:47:22.333+0000] {processor.py:154} INFO - Started process (PID=63524) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:47:22.335+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:47:22.337+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:47:22.337+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:47:22.433+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:47:22.476+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:47:22.476+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:47:22.496+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:47:22.495+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:47:22.507+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.179 seconds
+[2023-04-16T00:47:52.562+0000] {processor.py:154} INFO - Started process (PID=63555) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:47:52.564+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:47:52.565+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:47:52.565+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:47:52.654+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:47:52.727+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:47:52.727+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:47:52.747+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:47:52.747+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:47:52.759+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.201 seconds
+[2023-04-16T00:48:22.994+0000] {processor.py:154} INFO - Started process (PID=63585) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:48:22.996+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:48:22.997+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:48:22.997+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:48:23.075+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:48:23.126+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:48:23.126+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:48:23.146+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:48:23.146+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:48:23.159+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.171 seconds
+[2023-04-16T00:48:53.480+0000] {processor.py:154} INFO - Started process (PID=63619) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:48:53.482+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:48:53.484+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:48:53.484+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:48:53.642+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:48:53.690+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:48:53.690+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:48:53.711+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:48:53.711+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:48:53.734+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.260 seconds
+[2023-04-16T00:49:23.793+0000] {processor.py:154} INFO - Started process (PID=63649) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:49:23.796+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:49:23.798+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:49:23.798+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:49:23.961+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:49:24.064+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:49:24.064+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:49:24.092+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:49:24.091+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:49:24.105+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.316 seconds
+[2023-04-16T00:49:54.318+0000] {processor.py:154} INFO - Started process (PID=63670) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:49:54.320+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:49:54.322+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:49:54.321+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:49:54.474+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:49:54.543+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:49:54.543+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:49:54.583+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:49:54.582+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:49:54.598+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.287 seconds
+[2023-04-16T00:50:24.749+0000] {processor.py:154} INFO - Started process (PID=63701) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:50:24.752+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:50:24.753+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:50:24.753+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:50:24.875+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:50:24.914+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:50:24.914+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:50:24.945+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:50:24.945+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:50:24.960+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.219 seconds
+[2023-04-16T00:50:55.047+0000] {processor.py:154} INFO - Started process (PID=63732) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:50:55.050+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:50:55.052+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:50:55.052+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:50:55.190+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:50:55.250+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:50:55.249+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:50:55.283+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:50:55.283+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:50:55.296+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.256 seconds
+[2023-04-16T00:51:26.214+0000] {processor.py:154} INFO - Started process (PID=63763) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:51:26.218+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:51:26.220+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:51:26.220+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:51:26.330+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:51:26.379+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:51:26.379+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:51:26.412+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:51:26.412+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:51:26.429+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.234 seconds
+[2023-04-16T00:51:56.751+0000] {processor.py:154} INFO - Started process (PID=63785) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:51:56.753+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:51:56.755+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:51:56.755+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:51:56.880+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:51:56.942+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:51:56.942+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:51:56.970+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:51:56.970+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:51:56.983+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.237 seconds
+[2023-04-16T00:52:27.055+0000] {processor.py:154} INFO - Started process (PID=63816) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:52:27.059+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:52:27.063+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:52:27.062+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:52:27.167+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:52:27.210+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:52:27.210+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:52:27.232+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:52:27.232+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:52:27.245+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.200 seconds
+[2023-04-16T00:52:57.421+0000] {processor.py:154} INFO - Started process (PID=63847) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:52:57.426+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:52:57.429+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:52:57.429+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:52:57.617+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:52:57.663+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:52:57.663+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:52:57.682+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:52:57.682+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:52:57.695+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.279 seconds
+[2023-04-16T00:53:27.950+0000] {processor.py:154} INFO - Started process (PID=63868) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:53:27.953+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:53:27.954+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:53:27.954+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:53:28.038+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:53:28.076+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:53:28.076+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:53:28.093+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:53:28.093+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:53:28.104+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.159 seconds
+[2023-04-16T00:53:58.290+0000] {processor.py:154} INFO - Started process (PID=63897) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:53:58.301+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:53:58.304+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:53:58.303+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:53:58.423+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:53:58.496+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:53:58.496+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:53:58.522+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:53:58.522+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:53:58.539+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.255 seconds
+[2023-04-16T00:54:28.605+0000] {processor.py:154} INFO - Started process (PID=63928) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:54:28.608+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:54:28.609+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:54:28.609+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:54:28.716+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:54:28.779+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:54:28.779+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:54:28.803+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:54:28.803+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:54:28.818+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.216 seconds
+[2023-04-16T00:54:58.987+0000] {processor.py:154} INFO - Started process (PID=63961) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:54:58.989+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:54:58.991+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:54:58.991+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:54:59.091+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:54:59.179+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:54:59.179+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:54:59.203+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:54:59.202+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:54:59.218+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.237 seconds
+[2023-04-16T00:55:30.111+0000] {processor.py:154} INFO - Started process (PID=63982) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:55:30.114+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:55:30.116+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:55:30.116+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:55:30.217+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:55:30.282+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:55:30.282+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:55:30.325+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:55:30.325+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:55:30.344+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.240 seconds
+[2023-04-16T00:56:00.755+0000] {processor.py:154} INFO - Started process (PID=64011) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:56:00.760+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:56:00.762+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:56:00.762+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:56:00.858+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:56:00.909+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:56:00.909+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:56:00.932+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:56:00.931+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:56:00.945+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.194 seconds
+[2023-04-16T00:56:31.075+0000] {processor.py:154} INFO - Started process (PID=64042) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:56:31.078+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:56:31.080+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:56:31.080+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:56:31.170+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:56:31.220+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:56:31.220+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:56:31.242+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:56:31.242+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:56:31.264+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.194 seconds
+[2023-04-16T00:57:01.371+0000] {processor.py:154} INFO - Started process (PID=64073) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:57:01.375+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:57:01.377+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:57:01.376+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:57:01.469+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:57:01.514+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:57:01.514+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:57:01.535+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:57:01.535+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:57:01.549+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.183 seconds
+[2023-04-16T00:57:31.897+0000] {processor.py:154} INFO - Started process (PID=64096) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:57:31.928+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:57:31.930+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:57:31.930+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:57:32.030+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:57:32.100+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:57:32.100+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:57:32.134+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:57:32.132+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:57:32.155+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.264 seconds
+[2023-04-16T00:58:02.296+0000] {processor.py:154} INFO - Started process (PID=64127) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:58:02.299+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:58:02.301+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:58:02.301+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:58:02.404+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:58:02.446+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:58:02.446+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:58:02.474+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:58:02.473+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:58:02.497+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.206 seconds
+[2023-04-16T00:58:33.392+0000] {processor.py:154} INFO - Started process (PID=64158) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:58:33.396+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:58:33.397+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:58:33.397+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:58:33.516+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:58:33.557+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:58:33.557+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:58:33.594+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:58:33.594+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:58:33.611+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.224 seconds
+[2023-04-16T00:59:03.793+0000] {processor.py:154} INFO - Started process (PID=64189) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:59:03.795+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:59:03.804+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:59:03.804+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:59:03.897+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:59:03.940+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:59:03.940+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:59:03.961+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:59:03.961+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:59:03.975+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.187 seconds
+[2023-04-16T00:59:34.171+0000] {processor.py:154} INFO - Started process (PID=64220) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T00:59:34.185+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T00:59:34.188+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:59:34.187+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T00:59:34.315+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T00:59:34.395+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:59:34.395+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T00:59:34.439+0000] {logging_mixin.py:120} INFO - [2023-04-16T00:59:34.439+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T00:59:34.461+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.306 seconds
+[2023-04-16T01:00:04.667+0000] {processor.py:154} INFO - Started process (PID=64242) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:00:04.672+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:00:04.674+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:00:04.674+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:00:04.767+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:00:04.848+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:00:04.848+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:00:04.908+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:00:04.908+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:00:04.930+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.268 seconds
+[2023-04-16T01:00:35.042+0000] {processor.py:154} INFO - Started process (PID=64273) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:00:35.046+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:00:35.048+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:00:35.048+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:00:35.162+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:00:35.213+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:00:35.213+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:00:35.236+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:00:35.236+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:00:35.252+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.216 seconds
+[2023-04-16T01:01:05.429+0000] {processor.py:154} INFO - Started process (PID=64303) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:01:05.432+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:01:05.434+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:01:05.434+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:01:05.536+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:01:05.580+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:01:05.580+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:01:05.602+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:01:05.602+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:01:05.616+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.196 seconds
+[2023-04-16T01:01:36.053+0000] {processor.py:154} INFO - Started process (PID=64334) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:01:36.056+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:01:36.059+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:01:36.059+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:01:36.168+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:01:36.211+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:01:36.211+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:01:36.233+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:01:36.233+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:01:36.250+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.208 seconds
+[2023-04-16T01:02:06.632+0000] {processor.py:154} INFO - Started process (PID=64356) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:02:06.637+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:02:06.640+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:02:06.640+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:02:06.735+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:02:06.778+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:02:06.778+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:02:06.798+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:02:06.798+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:02:06.811+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.183 seconds
+[2023-04-16T01:02:37.206+0000] {processor.py:154} INFO - Started process (PID=64389) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:02:37.209+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:02:37.211+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:02:37.211+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:02:37.352+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:02:37.436+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:02:37.436+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:02:37.467+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:02:37.467+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:02:37.491+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.292 seconds
+[2023-04-16T01:03:07.591+0000] {processor.py:154} INFO - Started process (PID=64419) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:03:07.594+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:03:07.596+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:03:07.596+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:03:07.677+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:03:07.731+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:03:07.731+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:03:07.757+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:03:07.757+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:03:07.774+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.189 seconds
+[2023-04-16T01:03:38.654+0000] {processor.py:154} INFO - Started process (PID=64450) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:03:38.656+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:03:38.657+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:03:38.657+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:03:38.787+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:03:38.831+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:03:38.831+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:03:38.852+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:03:38.852+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:03:38.866+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.216 seconds
+[2023-04-16T01:04:08.968+0000] {processor.py:154} INFO - Started process (PID=64471) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:04:08.971+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:04:08.972+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:04:08.972+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:04:09.064+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:04:09.118+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:04:09.118+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:04:09.152+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:04:09.151+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:04:09.173+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.211 seconds
+[2023-04-16T01:04:39.327+0000] {processor.py:154} INFO - Started process (PID=64502) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:04:39.330+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:04:39.331+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:04:39.331+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:04:39.452+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:04:39.515+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:04:39.515+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:04:39.552+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:04:39.552+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:04:39.568+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.246 seconds
+[2023-04-16T01:05:09.805+0000] {processor.py:154} INFO - Started process (PID=64533) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:05:09.808+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:05:09.811+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:05:09.811+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:05:09.909+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:05:09.964+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:05:09.963+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:05:09.989+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:05:09.989+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:05:10.015+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.216 seconds
+[2023-04-16T01:05:40.616+0000] {processor.py:154} INFO - Started process (PID=64563) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:05:40.619+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:05:40.623+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:05:40.622+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:05:40.784+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:05:40.854+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:05:40.854+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:05:40.886+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:05:40.886+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:05:40.931+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.321 seconds
+[2023-04-16T01:06:11.207+0000] {processor.py:154} INFO - Started process (PID=64585) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:06:11.210+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:06:11.211+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:06:11.211+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:06:11.338+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:06:11.419+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:06:11.419+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:06:11.447+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:06:11.447+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:06:11.463+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.265 seconds
+[2023-04-16T01:06:41.968+0000] {processor.py:154} INFO - Started process (PID=64616) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:06:41.971+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:06:41.973+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:06:41.972+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:06:42.071+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:06:42.140+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:06:42.139+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:06:42.176+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:06:42.176+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:06:42.189+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.228 seconds
+[2023-04-16T01:07:12.370+0000] {processor.py:154} INFO - Started process (PID=64646) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:07:12.373+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:07:12.376+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:07:12.375+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:07:12.454+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:07:12.513+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:07:12.513+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:07:12.546+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:07:12.546+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:07:12.560+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.197 seconds
+[2023-04-16T01:07:43.492+0000] {processor.py:154} INFO - Started process (PID=64674) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:07:43.495+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:07:43.497+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:07:43.497+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:07:43.620+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:07:43.682+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:07:43.682+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:07:43.708+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:07:43.708+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:07:43.731+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.243 seconds
+[2023-04-16T01:08:14.051+0000] {processor.py:154} INFO - Started process (PID=64699) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:08:14.053+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:08:14.055+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:08:14.055+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:08:14.131+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:08:14.187+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:08:14.187+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:08:14.210+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:08:14.210+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:08:14.224+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.177 seconds
+[2023-04-16T01:08:44.616+0000] {processor.py:154} INFO - Started process (PID=64731) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:08:44.619+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:08:44.621+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:08:44.621+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:08:44.753+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:08:44.828+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:08:44.828+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:08:44.854+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:08:44.854+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:08:44.869+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.260 seconds
+[2023-04-16T01:09:15.768+0000] {processor.py:154} INFO - Started process (PID=64762) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:09:15.771+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:09:15.772+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:09:15.772+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:09:15.850+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:09:15.906+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:09:15.905+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:09:15.929+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:09:15.929+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:09:15.942+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.190 seconds
+[2023-04-16T01:09:46.215+0000] {processor.py:154} INFO - Started process (PID=64792) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:09:46.219+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:09:46.222+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:09:46.222+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:09:46.409+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:09:46.497+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:09:46.497+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:09:46.530+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:09:46.529+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:09:46.562+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.353 seconds
+[2023-04-16T01:10:17.215+0000] {processor.py:154} INFO - Started process (PID=64814) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:10:17.218+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:10:17.219+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:10:17.219+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:10:17.295+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:10:17.332+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:10:17.332+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:10:17.349+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:10:17.349+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:10:17.369+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.161 seconds
+[2023-04-16T01:10:47.886+0000] {processor.py:154} INFO - Started process (PID=64845) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:10:47.889+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:10:47.891+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:10:47.891+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:10:47.986+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:10:48.040+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:10:48.040+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:10:48.074+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:10:48.074+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:10:48.088+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.208 seconds
+[2023-04-16T01:11:18.384+0000] {processor.py:154} INFO - Started process (PID=64875) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:11:18.387+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:11:18.392+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:11:18.392+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:11:18.463+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:11:18.527+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:11:18.527+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:11:18.548+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:11:18.547+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:11:18.561+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.182 seconds
+[2023-04-16T01:11:48.684+0000] {processor.py:154} INFO - Started process (PID=64906) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:11:48.688+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:11:48.706+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:11:48.705+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:11:48.798+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:11:48.855+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:11:48.855+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:11:48.889+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:11:48.889+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:11:48.906+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.232 seconds
+[2023-04-16T01:12:19.189+0000] {processor.py:154} INFO - Started process (PID=64928) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:12:19.192+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:12:19.194+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:12:19.194+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:12:19.325+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:12:19.372+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:12:19.372+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:12:19.394+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:12:19.394+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:12:19.407+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.224 seconds
+[2023-04-16T01:12:49.513+0000] {processor.py:154} INFO - Started process (PID=64960) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:12:49.516+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:12:49.517+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:12:49.517+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:12:49.577+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:12:49.622+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:12:49.622+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:12:49.643+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:12:49.643+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:12:49.655+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.147 seconds
+[2023-04-16T01:13:20.001+0000] {processor.py:154} INFO - Started process (PID=64991) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:13:20.004+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:13:20.005+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:13:20.005+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:13:20.071+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:13:20.103+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:13:20.103+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:13:20.118+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:13:20.118+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:13:20.157+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.161 seconds
+[2023-04-16T01:13:50.508+0000] {processor.py:154} INFO - Started process (PID=65021) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:13:50.516+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:13:50.521+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:13:50.520+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:13:50.652+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:13:50.836+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:13:50.836+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:13:50.908+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:13:50.908+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:13:50.933+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.437 seconds
+[2023-04-16T01:14:21.047+0000] {processor.py:154} INFO - Started process (PID=65042) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:14:21.062+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:14:21.064+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:14:21.064+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:14:21.164+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:14:21.224+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:14:21.224+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:14:21.259+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:14:21.259+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:14:21.277+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.237 seconds
+[2023-04-16T01:14:52.206+0000] {processor.py:154} INFO - Started process (PID=65074) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:14:52.209+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:14:52.210+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:14:52.210+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:14:52.375+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:14:52.481+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:14:52.481+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:14:52.508+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:14:52.508+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:14:52.523+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.321 seconds
+[2023-04-16T01:15:22.651+0000] {processor.py:154} INFO - Started process (PID=65106) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:15:22.654+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:15:22.656+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:15:22.656+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:15:22.726+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:15:22.784+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:15:22.783+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:15:22.816+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:15:22.816+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:15:22.830+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.185 seconds
+[2023-04-16T01:15:52.900+0000] {processor.py:154} INFO - Started process (PID=65133) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:15:52.904+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:15:52.906+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:15:52.906+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:15:53.041+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:15:53.102+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:15:53.102+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:15:53.127+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:15:53.126+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:15:53.142+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.250 seconds
+[2023-04-16T01:16:23.327+0000] {processor.py:154} INFO - Started process (PID=65156) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:16:23.364+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:16:23.367+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:16:23.367+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:16:23.444+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:16:23.487+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:16:23.487+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:16:23.526+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:16:23.526+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:16:23.541+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.221 seconds
+[2023-04-16T01:16:54.023+0000] {processor.py:154} INFO - Started process (PID=65187) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:16:54.026+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:16:54.027+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:16:54.027+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:16:54.125+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:16:54.171+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:16:54.171+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:16:54.195+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:16:54.195+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:16:54.209+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.193 seconds
+[2023-04-16T01:17:24.625+0000] {processor.py:154} INFO - Started process (PID=65218) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:17:24.628+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:17:24.630+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:17:24.630+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:17:24.727+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:17:24.766+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:17:24.766+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:17:24.785+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:17:24.785+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:17:24.800+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.182 seconds
+[2023-04-16T01:17:55.236+0000] {processor.py:154} INFO - Started process (PID=65249) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T01:17:55.240+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T01:17:55.243+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:17:55.242+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T01:17:55.400+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T01:17:55.483+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:17:55.483+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T01:17:55.514+0000] {logging_mixin.py:120} INFO - [2023-04-16T01:17:55.513+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T01:17:55.533+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.303 seconds
+[2023-04-16T02:06:17.760+0000] {processor.py:154} INFO - Started process (PID=65264) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T02:06:17.762+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T02:06:17.764+0000] {logging_mixin.py:120} INFO - [2023-04-16T02:06:17.764+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T02:06:17.887+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T02:06:18.006+0000] {logging_mixin.py:120} INFO - [2023-04-16T02:06:18.006+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T02:06:18.057+0000] {logging_mixin.py:120} INFO - [2023-04-16T02:06:18.057+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T02:06:18.117+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.361 seconds
+[2023-04-16T02:45:33.153+0000] {processor.py:154} INFO - Started process (PID=65296) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T02:45:33.159+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T02:45:33.163+0000] {logging_mixin.py:120} INFO - [2023-04-16T02:45:33.163+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T02:45:33.489+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T02:45:33.797+0000] {logging_mixin.py:120} INFO - [2023-04-16T02:45:33.796+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T02:45:34.016+0000] {logging_mixin.py:120} INFO - [2023-04-16T02:45:34.015+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T02:45:34.135+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.991 seconds
+[2023-04-16T03:18:36.689+0000] {processor.py:154} INFO - Started process (PID=65318) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T03:18:36.703+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T03:18:36.708+0000] {logging_mixin.py:120} INFO - [2023-04-16T03:18:36.708+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T03:18:37.266+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T03:18:37.475+0000] {logging_mixin.py:120} INFO - [2023-04-16T03:18:37.475+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T03:18:37.537+0000] {logging_mixin.py:120} INFO - [2023-04-16T03:18:37.537+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T03:18:37.578+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.914 seconds
+[2023-04-16T04:01:48.669+0000] {processor.py:154} INFO - Started process (PID=65349) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T04:01:48.674+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T04:01:48.677+0000] {logging_mixin.py:120} INFO - [2023-04-16T04:01:48.677+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T04:01:48.935+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T04:01:49.095+0000] {logging_mixin.py:120} INFO - [2023-04-16T04:01:49.094+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T04:01:49.191+0000] {logging_mixin.py:120} INFO - [2023-04-16T04:01:49.190+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T04:01:49.245+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.602 seconds
+[2023-04-16T04:59:07.458+0000] {processor.py:154} INFO - Started process (PID=65380) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T04:59:07.469+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T04:59:07.472+0000] {logging_mixin.py:120} INFO - [2023-04-16T04:59:07.471+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T04:59:07.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T04:59:08.019+0000] {logging_mixin.py:120} INFO - [2023-04-16T04:59:08.018+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T04:59:08.139+0000] {logging_mixin.py:120} INFO - [2023-04-16T04:59:08.139+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T04:59:08.224+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.775 seconds
+[2023-04-16T06:02:43.919+0000] {processor.py:154} INFO - Started process (PID=65402) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T06:02:43.927+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T06:02:43.933+0000] {logging_mixin.py:120} INFO - [2023-04-16T06:02:43.933+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T06:02:44.136+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T06:02:44.244+0000] {logging_mixin.py:120} INFO - [2023-04-16T06:02:44.244+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T06:02:44.281+0000] {logging_mixin.py:120} INFO - [2023-04-16T06:02:44.281+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T06:02:44.318+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.416 seconds
+[2023-04-16T06:54:26.338+0000] {processor.py:154} INFO - Started process (PID=65433) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T06:54:26.343+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T06:54:26.348+0000] {logging_mixin.py:120} INFO - [2023-04-16T06:54:26.348+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T06:54:26.422+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T06:54:26.468+0000] {logging_mixin.py:120} INFO - [2023-04-16T06:54:26.468+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T06:54:26.495+0000] {logging_mixin.py:120} INFO - [2023-04-16T06:54:26.495+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T06:54:26.511+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.177 seconds
+[2023-04-16T08:11:17.249+0000] {processor.py:154} INFO - Started process (PID=65456) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T08:11:17.251+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T08:11:17.252+0000] {logging_mixin.py:120} INFO - [2023-04-16T08:11:17.252+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T08:11:17.323+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T08:11:17.407+0000] {logging_mixin.py:120} INFO - [2023-04-16T08:11:17.406+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T08:11:17.438+0000] {logging_mixin.py:120} INFO - [2023-04-16T08:11:17.438+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T08:11:17.464+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.219 seconds
+[2023-04-16T08:50:56.941+0000] {processor.py:154} INFO - Started process (PID=65487) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T08:50:56.950+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T08:50:56.953+0000] {logging_mixin.py:120} INFO - [2023-04-16T08:50:56.953+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T08:50:57.327+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T08:50:57.573+0000] {logging_mixin.py:120} INFO - [2023-04-16T08:50:57.572+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T08:50:57.651+0000] {logging_mixin.py:120} INFO - [2023-04-16T08:50:57.651+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T08:50:57.716+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.797 seconds
+[2023-04-16T09:31:24.099+0000] {processor.py:154} INFO - Started process (PID=65518) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T09:31:24.110+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T09:31:24.115+0000] {logging_mixin.py:120} INFO - [2023-04-16T09:31:24.115+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T09:31:24.382+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T09:31:24.590+0000] {logging_mixin.py:120} INFO - [2023-04-16T09:31:24.589+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T09:31:24.693+0000] {logging_mixin.py:120} INFO - [2023-04-16T09:31:24.692+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T09:31:24.801+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.708 seconds
+[2023-04-16T10:55:17.633+0000] {processor.py:154} INFO - Started process (PID=65540) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T10:55:17.638+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T10:55:17.644+0000] {logging_mixin.py:120} INFO - [2023-04-16T10:55:17.643+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T10:55:17.909+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T10:55:18.851+0000] {logging_mixin.py:120} INFO - [2023-04-16T10:55:18.850+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T10:55:19.046+0000] {logging_mixin.py:120} INFO - [2023-04-16T10:55:19.046+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T10:55:19.132+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 1.514 seconds
+[2023-04-16T12:18:09.890+0000] {processor.py:154} INFO - Started process (PID=65572) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T12:18:09.892+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T12:18:09.894+0000] {logging_mixin.py:120} INFO - [2023-04-16T12:18:09.894+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T12:18:09.973+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T12:18:10.030+0000] {logging_mixin.py:120} INFO - [2023-04-16T12:18:10.030+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T12:18:10.074+0000] {logging_mixin.py:120} INFO - [2023-04-16T12:18:10.074+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T12:18:10.088+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.201 seconds
+[2023-04-16T13:41:21.719+0000] {processor.py:154} INFO - Started process (PID=65594) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T13:41:21.725+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T13:41:21.731+0000] {logging_mixin.py:120} INFO - [2023-04-16T13:41:21.731+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T13:41:21.968+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T13:41:22.208+0000] {logging_mixin.py:120} INFO - [2023-04-16T13:41:22.207+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T13:41:22.394+0000] {logging_mixin.py:120} INFO - [2023-04-16T13:41:22.393+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T13:41:22.493+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.785 seconds
+[2023-04-16T15:04:32.693+0000] {processor.py:154} INFO - Started process (PID=65625) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T15:04:32.696+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T15:04:32.697+0000] {logging_mixin.py:120} INFO - [2023-04-16T15:04:32.697+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T15:04:32.826+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T15:04:32.903+0000] {logging_mixin.py:120} INFO - [2023-04-16T15:04:32.903+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T15:04:32.938+0000] {logging_mixin.py:120} INFO - [2023-04-16T15:04:32.938+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T15:04:32.960+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.272 seconds
+[2023-04-16T16:14:39.195+0000] {processor.py:154} INFO - Started process (PID=65653) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T16:14:39.202+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T16:14:39.208+0000] {logging_mixin.py:120} INFO - [2023-04-16T16:14:39.208+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T16:14:39.593+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T16:14:39.801+0000] {logging_mixin.py:120} INFO - [2023-04-16T16:14:39.800+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T16:14:39.926+0000] {logging_mixin.py:120} INFO - [2023-04-16T16:14:39.926+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T16:14:40.002+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.833 seconds
+[2023-04-16T17:19:20.808+0000] {processor.py:154} INFO - Started process (PID=65677) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T17:19:20.817+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T17:19:20.822+0000] {logging_mixin.py:120} INFO - [2023-04-16T17:19:20.822+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T17:19:21.037+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T17:19:21.302+0000] {logging_mixin.py:120} INFO - [2023-04-16T17:19:21.300+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T17:19:21.494+0000] {logging_mixin.py:120} INFO - [2023-04-16T17:19:21.494+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T17:19:21.543+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.742 seconds
+[2023-04-16T18:00:01.179+0000] {processor.py:154} INFO - Started process (PID=65705) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T18:00:01.184+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T18:00:01.187+0000] {logging_mixin.py:120} INFO - [2023-04-16T18:00:01.187+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T18:00:01.394+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T18:00:01.497+0000] {logging_mixin.py:120} INFO - [2023-04-16T18:00:01.497+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T18:00:01.620+0000] {logging_mixin.py:120} INFO - [2023-04-16T18:00:01.620+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T18:00:01.707+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.532 seconds
+[2023-04-16T19:14:11.216+0000] {processor.py:154} INFO - Started process (PID=65729) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T19:14:11.222+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T19:14:11.229+0000] {logging_mixin.py:120} INFO - [2023-04-16T19:14:11.228+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T19:14:11.509+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T19:14:11.628+0000] {logging_mixin.py:120} INFO - [2023-04-16T19:14:11.628+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T19:14:11.736+0000] {logging_mixin.py:120} INFO - [2023-04-16T19:14:11.735+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T19:14:11.800+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.588 seconds
+[2023-04-16T19:38:57.362+0000] {processor.py:154} INFO - Started process (PID=65760) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T19:38:57.365+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T19:38:57.366+0000] {logging_mixin.py:120} INFO - [2023-04-16T19:38:57.366+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T19:38:57.483+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T19:38:57.537+0000] {logging_mixin.py:120} INFO - [2023-04-16T19:38:57.537+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T19:38:57.566+0000] {logging_mixin.py:120} INFO - [2023-04-16T19:38:57.566+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T19:38:57.591+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.232 seconds
+[2023-04-16T20:12:33.136+0000] {processor.py:154} INFO - Started process (PID=65792) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T20:12:33.141+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T20:12:33.146+0000] {logging_mixin.py:120} INFO - [2023-04-16T20:12:33.145+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T20:12:33.371+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T20:12:33.519+0000] {logging_mixin.py:120} INFO - [2023-04-16T20:12:33.519+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T20:12:33.603+0000] {logging_mixin.py:120} INFO - [2023-04-16T20:12:33.603+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T20:12:33.650+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.529 seconds
+[2023-04-16T21:15:36.054+0000] {processor.py:154} INFO - Started process (PID=65813) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T21:15:36.056+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T21:15:36.057+0000] {logging_mixin.py:120} INFO - [2023-04-16T21:15:36.057+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T21:15:36.123+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T21:15:36.194+0000] {logging_mixin.py:120} INFO - [2023-04-16T21:15:36.194+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T21:15:36.219+0000] {logging_mixin.py:120} INFO - [2023-04-16T21:15:36.219+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T21:15:36.234+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.183 seconds
+[2023-04-16T22:35:56.929+0000] {processor.py:154} INFO - Started process (PID=65845) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T22:35:56.932+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T22:35:56.935+0000] {logging_mixin.py:120} INFO - [2023-04-16T22:35:56.935+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T22:35:58.108+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T22:35:58.761+0000] {logging_mixin.py:120} INFO - [2023-04-16T22:35:58.759+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T22:35:58.957+0000] {logging_mixin.py:120} INFO - [2023-04-16T22:35:58.956+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T22:35:59.042+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 2.119 seconds
+[2023-04-16T23:33:27.976+0000] {processor.py:154} INFO - Started process (PID=65876) to work on /opt/airflow/dags/create_table.py
+[2023-04-16T23:33:27.981+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/create_table.py for tasks to queue
+[2023-04-16T23:33:27.983+0000] {logging_mixin.py:120} INFO - [2023-04-16T23:33:27.983+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/create_table.py
+[2023-04-16T23:33:28.381+0000] {processor.py:766} INFO - DAG(s) dict_keys(['etl_dag']) retrieved from /opt/airflow/dags/create_table.py
+[2023-04-16T23:33:28.531+0000] {logging_mixin.py:120} INFO - [2023-04-16T23:33:28.530+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-16T23:33:28.616+0000] {logging_mixin.py:120} INFO - [2023-04-16T23:33:28.615+0000] {dag.py:3340} INFO - Setting next_dagrun for etl_dag to 2023-04-08T00:00:00+00:00, run_after=2023-04-09T00:00:00+00:00
+[2023-04-16T23:33:28.692+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/create_table.py took 0.719 seconds

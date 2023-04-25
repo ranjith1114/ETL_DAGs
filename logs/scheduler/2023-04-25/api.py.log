@@ -1,0 +1,7 @@
+[2023-04-25T20:25:22.097+0000] {processor.py:154} INFO - Started process (PID=34) to work on /opt/airflow/dags/api.py
+[2023-04-25T20:25:22.100+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/api.py for tasks to queue
+[2023-04-25T20:25:22.101+0000] {logging_mixin.py:120} INFO - [2023-04-25T20:25:22.101+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/api.py
+[2023-04-25T20:25:22.846+0000] {processor.py:766} INFO - DAG(s) dict_keys(['api_dag']) retrieved from /opt/airflow/dags/api.py
+[2023-04-25T20:25:23.005+0000] {logging_mixin.py:120} INFO - [2023-04-25T20:25:23.004+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2023-04-25T20:25:23.045+0000] {logging_mixin.py:120} INFO - [2023-04-25T20:25:23.045+0000] {dag.py:3340} INFO - Setting next_dagrun for api_dag to 2023-04-11T00:00:00+00:00, run_after=2023-04-12T00:00:00+00:00
+[2023-04-25T20:25:23.074+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/api.py took 0.980 seconds

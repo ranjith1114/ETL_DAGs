@@ -1,0 +1,46 @@
+[2023-04-11T00:34:13.166+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.process_user scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-04-11T00:34:13.217+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.process_user scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-04-11T00:34:13.220+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T00:34:13.222+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-11T00:34:13.224+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T00:34:13.259+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): process_user> on 2023-04-10 00:00:00+00:00
+[2023-04-11T00:34:13.270+0000] {standard_task_runner.py:55} INFO - Started process 30523 to run task
+[2023-04-11T00:34:13.277+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'process_user', 'scheduled__2023-04-10T00:00:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmp_kskobts']
+[2023-04-11T00:34:13.287+0000] {standard_task_runner.py:83} INFO - Job 108: Subtask process_user
+[2023-04-11T00:34:13.688+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.process_user scheduled__2023-04-10T00:00:00+00:00 [running]> on host c12a518d534c
+[2023-04-11T00:34:13.948+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-10T00:00:00+00:00
+[2023-04-11T00:34:14.067+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-11T00:34:14.111+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=process_user, execution_date=20230410T000000, start_date=20230411T003413, end_date=20230411T003414
+[2023-04-11T00:34:14.230+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-11T00:34:14.351+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-04-11T17:26:54.542+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.process_user scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-04-11T17:26:54.576+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.process_user scheduled__2023-04-10T00:00:00+00:00 [queued]>
+[2023-04-11T17:26:54.579+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T17:26:54.582+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2023-04-11T17:26:54.585+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-11T17:26:54.623+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): process_user> on 2023-04-10 00:00:00+00:00
+[2023-04-11T17:26:54.643+0000] {standard_task_runner.py:55} INFO - Started process 39722 to run task
+[2023-04-11T17:26:54.661+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'process_user', 'scheduled__2023-04-10T00:00:00+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpibseojb8']
+[2023-04-11T17:26:54.671+0000] {standard_task_runner.py:83} INFO - Job 126: Subtask process_user
+[2023-04-11T17:26:54.833+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.process_user scheduled__2023-04-10T00:00:00+00:00 [running]> on host c12a518d534c
+[2023-04-11T17:26:54.931+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=process_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-10T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-04-10T00:00:00+00:00
+[2023-04-11T17:26:54.979+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-04-11T17:26:55.001+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=process_user, execution_date=20230410T000000, start_date=20230411T172654, end_date=20230411T172655
+[2023-04-11T17:26:55.064+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-11T17:26:55.104+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

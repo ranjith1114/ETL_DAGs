@@ -1,0 +1,29 @@
+[2023-04-09T00:34:50.684+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.create_table manual__2023-04-09T00:29:48.109385+00:00 [queued]>
+[2023-04-09T00:34:50.691+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: api_dag.create_table manual__2023-04-09T00:29:48.109385+00:00 [queued]>
+[2023-04-09T00:34:50.692+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-09T00:34:50.693+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 2
+[2023-04-09T00:34:50.694+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-04-09T00:34:50.702+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_table> on 2023-04-09 00:29:48.109385+00:00
+[2023-04-09T00:34:50.709+0000] {standard_task_runner.py:55} INFO - Started process 9786 to run task
+[2023-04-09T00:34:50.714+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'api_dag', 'create_table', 'manual__2023-04-09T00:29:48.109385+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/api.py', '--cfg-path', '/tmp/tmpudqngvt1']
+[2023-04-09T00:34:50.717+0000] {standard_task_runner.py:83} INFO - Job 67: Subtask create_table
+[2023-04-09T00:34:50.782+0000] {task_command.py:376} INFO - Running <TaskInstance: api_dag.create_table manual__2023-04-09T00:29:48.109385+00:00 [running]> on host c12a518d534c
+[2023-04-09T00:34:50.834+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=api_dag
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2023-04-09T00:29:48.109385+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-04-09T00:29:48.109385+00:00
+[2023-04-09T00:34:50.845+0000] {base.py:71} INFO - Using connection ID 'postgres' for task execution.
+[2023-04-09T00:34:50.851+0000] {sql.py:315} INFO - Running statement: Drop table user_details;
+
+CREATE TABLE IF NOT EXISTS user_details (
+    firstname VARCHAR NOT NULL,
+    lastname VARCHAR NOT NULL,
+    country VARCHAR);, parameters: None
+[2023-04-09T00:34:50.872+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=api_dag, task_id=create_table, execution_date=20230409T002948, start_date=20230409T003450, end_date=20230409T003450
+[2023-04-09T00:34:50.925+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-04-09T00:34:50.956+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
